@@ -1,0 +1,35 @@
+extends layout
+
+//- block content
+//-   h1= title
+//-   p Welcome to #{title}
+block content
+	.jumbotron
+		h2.slogan VERY LARGE SLOGAN
+		form.form-inline
+			.form-group
+				input.form-control(placeholder="Enter Email")
+			a(href="#" class="btn btn-primary" role="button") SIGN UP FOR TIPS
+	.container-fluid
+		.row.three-way
+			.col-md-12
+				h2 Three ways to Publish
+		.row.three-way
+			.col-md-6
+				img(src='http://placekitten.com/g/400/300')
+			.col-md-6
+				p This is option 1. Read all about option 1.
+		.row.three-way
+			.col-md-6
+				img(src='http://placekitten.com/g/400/300')
+			.col-md-6
+				p This is option 2. Read all about option 2.
+		.row.three-way
+			.col-md-6
+				img(src='http://placekitten.com/g/400/300')
+			.col-md-6
+				p This is option 3. Read all about option 3.
+
+
+
+

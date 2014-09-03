@@ -1,0 +1,88 @@
+body {
+ /* padding: 50px;*/
+  font-family: monospace;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar li {
+	font-size: 18px;
+	margin-top: 1%;
+}
+
+.jumbotron {
+	background-image: url('/images/books.jpg');
+	background-size: cover;
+    color: white;
+/*    margin-top: -90px;*/
+	text-align: center;
+	height: 33%;
+	margin-bottom: 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+form {
+	/*text-align: center;*/
+}
+form .btn {
+	margin: 5px;
+}
+
+.slogan {
+	font-size: 56px;
+	font-family: monospace;
+}
+
+.three-way h2 {
+	text-align: center;
+	font-size: 36px;
+}
+.three-way {
+	margin: 5%;
+}
+.footer {
+	background-color: dimgray;
+	color: white;
+	margin-top: 3%;
+}
+
+.column {
+	display: inline-block;
+	max-width: 20%;
+	padding: 20px 40px;
+}
+
+.column h5 {
+	font-size: 16px;
+}
+
+.footer ul {
+	padding-left: 0px;
+}
+
+.footer li {
+	list-style-type: none;
+	padding: 3px 0px;
+}
+
+.column li > a {
+	color: white;
+}
+
+
