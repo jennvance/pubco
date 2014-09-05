@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
 	// $(".nav1 li > a").on("click", function () {
 	// 	$(".nav1 li > a").removeClass("active");

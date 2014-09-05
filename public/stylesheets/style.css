@@ -1,18 +1,28 @@
 body {
  /* padding: 50px;*/
   font-family: monospace;
+  /*background-color: #f9a45d;*/
 }
 
 a:hover {
 	text-decoration: none;
 }
 
+nav a {
+	color: white;
+}
+
+nav li {
+	color: white;
+}
+
 .navbar {
 	margin-bottom: 0;
+
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: #5db2f9;
 	border: none;
 }
 
@@ -20,21 +30,27 @@ a:hover {
 	float: right;
 }
 
+.navbar-default .navbar-nav li > a {
+	color: white;
+}
+
 .navbar li {
 	font-size: 18px;
 	margin-top: 1%;
+	
 }
 
 .jumbotron {
-	background-image: url('/images/books.jpg');
+	/*background-image: url('/images/books.jpg');*/
+	background-color: #5db2f9;
 	background-size: cover;
     color: white;
-/*    margin-top: -90px;*/
 	text-align: center;
-	height: 33%;
+	/*height: 50%;*/
 	margin-bottom: 0;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	/*border-bottom: 125px #5db2f9 solid;*/
 }
 
 form {
@@ -47,6 +63,10 @@ form .btn {
 .slogan {
 	font-size: 56px;
 	font-family: monospace;
+}
+
+.tri-column {
+	text-align: center;
 }
 
 .three-way h2 {
@@ -84,5 +104,16 @@ form .btn {
 .column li > a {
 	color: white;
 }
+#56b3ff //softer light electric blue
+#6fd6ff // Light Electric blue
+ #00A2FF //Electric blue
+#ff3814 //shade darker than tomato
+#ff7961	//shade lighter than tomato
+
+#ffbf47 //goldenrod or dark khaki
+#47e3ff
+
+
+
 
 

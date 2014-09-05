@@ -8,6 +8,7 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var fs = require('fs');
 
 // var mongoose = require('mongoose');
 var app = express();
@@ -31,8 +32,24 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 
+app.get('/introduction', function(req,res) {
+	res.render('introduction')
+})
+
 app.get('/about', function(req,res) {
 	res.render('about')
+})
+
+app.get('/tools', function(req,res) {
+	res.render('tools')
+})
+
+app.get('/blog', function(req,res) {
+	res.render('blog')
+})
+
+app.get('/services', function(req,res) {
+	res.render('services')
 })
 
 app.get('/users', user.list);
